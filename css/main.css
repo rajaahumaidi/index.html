@@ -39,7 +39,7 @@ html {
     top: 100%;
 }
 #nav_menu ul li a {
-    width: 40px;
+    width: 60px;
     color: black;
 }
 #nav_menu ul li {
@@ -53,6 +53,8 @@ a {
 a:hover{
     text-decoration: underline;
 }
+
+
 /*cards*/
 .card{
     background-color: lightsteelblue;
@@ -93,6 +95,9 @@ a:hover{
     margin-right: 10em;
 }
 
+#about{
+    background-color: aliceblue;
+}
 /*my objectives page*/
 .container1{
     background-color: white;
@@ -129,6 +134,7 @@ a:hover{
 }
 #resume{
     background-color: lightsteelblue;
+    margin-bottom: 100px;
 }
 .myresume{
     margin-bottom: 60px;
@@ -140,9 +146,7 @@ a:hover{
 
 /*contact*/
 .contact-title{
-    background-color: lightsteelblue;
     box-sizing: border-box;
-    width: 40%; /* Full width */
     padding: 12px; /* Some padding */
     border-radius: 4px; /* Rounded borders */
     margin-top: 6px; /* Add a top margin */
@@ -150,6 +154,12 @@ a:hover{
     resize: vertical;
     margin-left: 10px;
     position: relative;
+    background-color: #9ab2d7;
+    display: block;
+    margin: 40px;
+    width: 230px;
+    position: relative;
+
 }
 #contact {
     background-color: lightsteelblue;
@@ -162,8 +172,6 @@ a:hover{
     padding: 33px;
 
 }
-
-
 
 /*form*/
 input[type=text], select, textarea {
@@ -210,16 +218,13 @@ input[type=submit]:hover {
 }
 
 
-
-
-
 /*titles*/
 h2{
     background-color: #9ab2d7;
     display: block;
     margin: 40px;
     width: 230px;
-    position: sticky;
+    position: relative;
 
 }
 
